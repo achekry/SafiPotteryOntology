@@ -1,0 +1,1797 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2025/4/artisanat"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/user/ontologies/2025/4/artisanat">
+    <Prefix name="" IRI="http://www.semanticweb.org/user/ontologies/2025/4/artisanat/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="artisanat" IRI="http://www.semanticweb.org/user/ontologies/2025/4/artisanat#"/>
+    <Declaration>
+        <Class IRI="#Cooperative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pattern"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Product_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Supplier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Technique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ProductionStep"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Raw_Material"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Workshop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/artisan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/tool"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Process_goes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belongsTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPattern"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSuppliedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#produces"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uses"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/builtBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/displayedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/manufactures"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/uses_Technique"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/worksIn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ArtisanPhone"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CooperativeAddress"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CooperativeMainPurpose"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CooperativeMemberCount"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CooperativeName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CooperativePresidentPhone"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PresidentName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SupplierAddress"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SupplierFax"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SupplierName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SupplierPhone"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#WorkshopName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/ArtisanAge"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/ArtisanFirstName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/ArtisanName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/ArtisanSpecialty"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/CollectionPlace"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/CreationDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/LocationAddress"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/MaterialName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/PlaceName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/ProductCategory"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/ProductDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/ProductDiameter"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/ProductName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/ProductPrice"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/TechnicalDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/TechniqueName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/ToolName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/WorkshopAddress"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/WorkshopNumber"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/typeLieu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AabdaPottery"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Abdellatif"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Abdelwahad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Abderrahim"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Achkin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ahmed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Arrachid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AyirCeramics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Benaamoun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bouanani"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CeramicColorant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ClayPreparation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Decoration"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Drying"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#El_Kaoui"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Elbacheri"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Elmamoun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Engobage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EngobeClay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EuropeanGlaze"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FirstFiring"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FloralPattern"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FolkloricPattern"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GhitaArt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GlazeFiring"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Glazing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Glaçage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HandDecoration"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HandShaping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hicham"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ItalianGlaze"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Khalid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kiln"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MIMEAL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MarinePattern"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MaterialProcessing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Modeling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mohammed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Molding"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MonumentalPattern"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mostapha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OpaqueGlaze"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Osama"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Outhman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Polishing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PotterHill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PottersVillage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pétrissage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ROUAMCHA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rabie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rachid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RawDecoration"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RedClay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SWIRATE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SafaCeramics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SafiCeramics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Said"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shaping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SohbaPottery"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TableTopPotteryWheel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TraditionalArtisansDescendants"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TransparentGlaze"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Trimming"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ValléeChaaba"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VegetalPattern"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WheelThrowing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WhiteClay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Workshop45"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Workshop46"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Workshop47"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ZRAWLA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ZiouaniFrères"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Éponge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Ahmed_Potier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/SerghiniWorkshop"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Product_type"/>
+        <Class IRI="/Product"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Cooperative"/>
+        <NamedIndividual IRI="#AabdaPottery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/artisan"/>
+        <NamedIndividual IRI="#Abdellatif"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/artisan"/>
+        <NamedIndividual IRI="#Abdelwahad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/artisan"/>
+        <NamedIndividual IRI="#Abderrahim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/artisan"/>
+        <NamedIndividual IRI="#Achkin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/artisan"/>
+        <NamedIndividual IRI="#Ahmed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/artisan"/>
+        <NamedIndividual IRI="#Arrachid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cooperative"/>
+        <NamedIndividual IRI="#AyirCeramics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/artisan"/>
+        <NamedIndividual IRI="#Benaamoun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/artisan"/>
+        <NamedIndividual IRI="#Bouanani"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Raw_Material"/>
+        <NamedIndividual IRI="#CeramicColorant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ProductionStep"/>
+        <NamedIndividual IRI="#ClayPreparation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ProductionStep"/>
+        <NamedIndividual IRI="#Decoration"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ProductionStep"/>
+        <NamedIndividual IRI="#Drying"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/artisan"/>
+        <NamedIndividual IRI="#El_Kaoui"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/artisan"/>
+        <NamedIndividual IRI="#Elbacheri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/artisan"/>
+        <NamedIndividual IRI="#Elmamoun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ProductionStep"/>
+        <NamedIndividual IRI="#Engobage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Raw_Material"/>
+        <NamedIndividual IRI="#EngobeClay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Supplier"/>
+        <NamedIndividual IRI="#EuropeanGlaze"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ProductionStep"/>
+        <NamedIndividual IRI="#FirstFiring"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pattern"/>
+        <NamedIndividual IRI="#FloralPattern"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pattern"/>
+        <NamedIndividual IRI="#FolkloricPattern"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cooperative"/>
+        <NamedIndividual IRI="#GhitaArt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ProductionStep"/>
+        <NamedIndividual IRI="#GlazeFiring"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ProductionStep"/>
+        <NamedIndividual IRI="#Glazing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Technique"/>
+        <NamedIndividual IRI="#Glaçage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Technique"/>
+        <NamedIndividual IRI="#HandDecoration"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cooperative"/>
+        <NamedIndividual IRI="#HandShaping"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/artisan"/>
+        <NamedIndividual IRI="#Hicham"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Supplier"/>
+        <NamedIndividual IRI="#ItalianGlaze"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/artisan"/>
+        <NamedIndividual IRI="#Khalid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/tool"/>
+        <NamedIndividual IRI="#Kiln"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Supplier"/>
+        <NamedIndividual IRI="#MIMEAL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pattern"/>
+        <NamedIndividual IRI="#MarinePattern"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ProductionStep"/>
+        <NamedIndividual IRI="#MaterialProcessing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Technique"/>
+        <NamedIndividual IRI="#Modeling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/artisan"/>
+        <NamedIndividual IRI="#Mohammed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Technique"/>
+        <NamedIndividual IRI="#Molding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pattern"/>
+        <NamedIndividual IRI="#MonumentalPattern"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/artisan"/>
+        <NamedIndividual IRI="#Mostapha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Raw_Material"/>
+        <NamedIndividual IRI="#OpaqueGlaze"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/artisan"/>
+        <NamedIndividual IRI="#Osama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/artisan"/>
+        <NamedIndividual IRI="#Outhman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ProductionStep"/>
+        <NamedIndividual IRI="#Polishing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Location"/>
+        <NamedIndividual IRI="#PotterHill"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cooperative"/>
+        <NamedIndividual IRI="#PottersVillage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ProductionStep"/>
+        <NamedIndividual IRI="#Pétrissage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Location"/>
+        <NamedIndividual IRI="#ROUAMCHA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/artisan"/>
+        <NamedIndividual IRI="#Rabie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/artisan"/>
+        <NamedIndividual IRI="#Rachid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ProductionStep"/>
+        <NamedIndividual IRI="#RawDecoration"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Raw_Material"/>
+        <NamedIndividual IRI="#RedClay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Location"/>
+        <NamedIndividual IRI="#SWIRATE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Supplier"/>
+        <NamedIndividual IRI="#SafaCeramics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cooperative"/>
+        <NamedIndividual IRI="#SafiCeramics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/artisan"/>
+        <NamedIndividual IRI="#Said"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ProductionStep"/>
+        <NamedIndividual IRI="#Shaping"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cooperative"/>
+        <NamedIndividual IRI="#SohbaPottery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/tool"/>
+        <NamedIndividual IRI="#TableTopPotteryWheel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cooperative"/>
+        <NamedIndividual IRI="#TraditionalArtisansDescendants"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Raw_Material"/>
+        <NamedIndividual IRI="#TransparentGlaze"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ProductionStep"/>
+        <NamedIndividual IRI="#Trimming"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Location"/>
+        <NamedIndividual IRI="#ValléeChaaba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pattern"/>
+        <NamedIndividual IRI="#VegetalPattern"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Technique"/>
+        <NamedIndividual IRI="#WheelThrowing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Raw_Material"/>
+        <NamedIndividual IRI="#WhiteClay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Workshop"/>
+        <NamedIndividual IRI="#Workshop45"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Workshop"/>
+        <NamedIndividual IRI="#Workshop46"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Workshop"/>
+        <NamedIndividual IRI="#Workshop47"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Location"/>
+        <NamedIndividual IRI="#ZRAWLA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Supplier"/>
+        <NamedIndividual IRI="#ZiouaniFrères"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/tool"/>
+        <NamedIndividual IRI="#Éponge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/artisan"/>
+        <NamedIndividual IRI="/Ahmed_Potier"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Workshop"/>
+        <NamedIndividual IRI="/SerghiniWorkshop"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/worksIn"/>
+        <NamedIndividual IRI="/Ahmed_Potier"/>
+        <NamedIndividual IRI="/SerghiniWorkshop"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativeAddress"/>
+        <NamedIndividual IRI="#AabdaPottery"/>
+        <Literal>Douar Regraga Esaadla</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativeMainPurpose"/>
+        <NamedIndividual IRI="#AabdaPottery"/>
+        <Literal>Poterie</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativeMemberCount"/>
+        <NamedIndividual IRI="#AabdaPottery"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativeName"/>
+        <NamedIndividual IRI="#AabdaPottery"/>
+        <Literal>Poterie Aabda</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativePresidentPhone"/>
+        <NamedIndividual IRI="#AabdaPottery"/>
+        <Literal>05 77 47 64 92</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PresidentName"/>
+        <NamedIndividual IRI="#AabdaPottery"/>
+        <Literal>ELKRYANI Meryem</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanFirstName"/>
+        <NamedIndividual IRI="#Abdellatif"/>
+        <Literal>Abdellatif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanName"/>
+        <NamedIndividual IRI="#Abdellatif"/>
+        <Literal>Essalama</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanName"/>
+        <NamedIndividual IRI="#Abdellatif"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">57</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanAge"/>
+        <NamedIndividual IRI="#Abdelwahad"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">55</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanName"/>
+        <NamedIndividual IRI="#Abdelwahad"/>
+        <Literal>Abdelwahad</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanName"/>
+        <NamedIndividual IRI="#Abdelwahad"/>
+        <Literal>Chetali</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanFirstName"/>
+        <NamedIndividual IRI="#Abderrahim"/>
+        <Literal>Abderrahim</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanFirstName"/>
+        <NamedIndividual IRI="#Abderrahim"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanName"/>
+        <NamedIndividual IRI="#Abderrahim"/>
+        <Literal>Khellouf</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanAge"/>
+        <NamedIndividual IRI="#Achkin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">68</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanFirstName"/>
+        <NamedIndividual IRI="#Achkin"/>
+        <Literal>Abdelwahad</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanName"/>
+        <NamedIndividual IRI="#Achkin"/>
+        <Literal>Achkin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanAge"/>
+        <NamedIndividual IRI="#Ahmed"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanFirstName"/>
+        <NamedIndividual IRI="#Ahmed"/>
+        <Literal>Ahmed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanName"/>
+        <NamedIndividual IRI="#Ahmed"/>
+        <Literal>El khalfi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanName"/>
+        <NamedIndividual IRI="#Arrachid"/>
+        <Literal>Arrachid</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanName"/>
+        <NamedIndividual IRI="#Arrachid"/>
+        <Literal>El Khsami</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanName"/>
+        <NamedIndividual IRI="#Arrachid"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">73</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativeAddress"/>
+        <NamedIndividual IRI="#AyirCeramics"/>
+        <Literal>Village oulad bouaanane Ayir Région Safi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativeMainPurpose"/>
+        <NamedIndividual IRI="#AyirCeramics"/>
+        <Literal>NAJEH Hassan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativeMainPurpose"/>
+        <NamedIndividual IRI="#AyirCeramics"/>
+        <Literal>Poterie et Céramique</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativeMemberCount"/>
+        <NamedIndividual IRI="#AyirCeramics"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativeName"/>
+        <NamedIndividual IRI="#AyirCeramics"/>
+        <Literal>Poterie Ayir</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativePresidentPhone"/>
+        <NamedIndividual IRI="#AyirCeramics"/>
+        <Literal>06 54 57 54 36</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanAge"/>
+        <NamedIndividual IRI="#Benaamoun"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">66</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanFirstName"/>
+        <NamedIndividual IRI="#Benaamoun"/>
+        <Literal>Rachid</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanName"/>
+        <NamedIndividual IRI="#Benaamoun"/>
+        <Literal>Benaamoun</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanAge"/>
+        <NamedIndividual IRI="#Bouanani"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">71</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanFirstName"/>
+        <NamedIndividual IRI="#Bouanani"/>
+        <Literal>Mohammed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanName"/>
+        <NamedIndividual IRI="#Bouanani"/>
+        <Literal>Bouanani</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanAge"/>
+        <NamedIndividual IRI="#El_Kaoui"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">56</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanFirstName"/>
+        <NamedIndividual IRI="#El_Kaoui"/>
+        <Literal>Mohammed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanName"/>
+        <NamedIndividual IRI="#El_Kaoui"/>
+        <Literal>El Kaoui</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ArtisanPhone"/>
+        <NamedIndividual IRI="#Elbacheri"/>
+        <Literal>0677115073</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanAge"/>
+        <NamedIndividual IRI="#Elbacheri"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanFirstName"/>
+        <NamedIndividual IRI="#Elbacheri"/>
+        <Literal>Said</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanName"/>
+        <NamedIndividual IRI="#Elbacheri"/>
+        <Literal>Elbacheri</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanAge"/>
+        <NamedIndividual IRI="#Elmamoun"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">71</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanFirstName"/>
+        <NamedIndividual IRI="#Elmamoun"/>
+        <Literal>Elgouryani</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanName"/>
+        <NamedIndividual IRI="#Elmamoun"/>
+        <Literal>Elmamoun</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SupplierAddress"/>
+        <NamedIndividual IRI="#EuropeanGlaze"/>
+        <Literal>15 Rue Chaaba Azib  Zemmouri  Quartier Biada  Safi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SupplierFax"/>
+        <NamedIndividual IRI="#EuropeanGlaze"/>
+        <Literal>0524669621</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SupplierName"/>
+        <NamedIndividual IRI="#EuropeanGlaze"/>
+        <Literal>Emaux d&apos;europe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SupplierPhone"/>
+        <NamedIndividual IRI="#EuropeanGlaze"/>
+        <Literal>0666102741</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativeAddress"/>
+        <NamedIndividual IRI="#GhitaArt"/>
+        <Literal>8 Rue 2 Lotis Elouazani Quartier l&apos;hopital</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativeMainPurpose"/>
+        <NamedIndividual IRI="#GhitaArt"/>
+        <Literal>Porcelaine et céramique</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativeMemberCount"/>
+        <NamedIndividual IRI="#GhitaArt"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativeName"/>
+        <NamedIndividual IRI="#GhitaArt"/>
+        <Literal>Ghita_Art</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativePresidentPhone"/>
+        <NamedIndividual IRI="#GhitaArt"/>
+        <Literal>06 77 16 02 73</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PresidentName"/>
+        <NamedIndividual IRI="#GhitaArt"/>
+        <Literal>Echekouri Karima</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativeAddress"/>
+        <NamedIndividual IRI="#HandShaping"/>
+        <Literal>4 Rue moussa ben nossayer Quartier ouad elbacha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativeMainPurpose"/>
+        <NamedIndividual IRI="#HandShaping"/>
+        <Literal>Poterie</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativeMemberCount"/>
+        <NamedIndividual IRI="#HandShaping"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativeName"/>
+        <NamedIndividual IRI="#HandShaping"/>
+        <Literal>coup de main</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativePresidentPhone"/>
+        <NamedIndividual IRI="#HandShaping"/>
+        <Literal>06 60 01 82 34</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PresidentName"/>
+        <NamedIndividual IRI="#HandShaping"/>
+        <Literal>bouchaib benyouk</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ArtisanPhone"/>
+        <NamedIndividual IRI="#Hicham"/>
+        <Literal>0665863472</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanAge"/>
+        <NamedIndividual IRI="#Hicham"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">52</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanFirstName"/>
+        <NamedIndividual IRI="#Hicham"/>
+        <Literal>Hicham</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanName"/>
+        <NamedIndividual IRI="#Hicham"/>
+        <Literal>Benaamoun</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SupplierAddress"/>
+        <NamedIndividual IRI="#ItalianGlaze"/>
+        <Literal>N°7 bis rue Moulay Youssef   Safi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SupplierFax"/>
+        <NamedIndividual IRI="#ItalianGlaze"/>
+        <Literal>05 24 62 23 99</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SupplierName"/>
+        <NamedIndividual IRI="#ItalianGlaze"/>
+        <Literal>Italia Email</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SupplierPhone"/>
+        <NamedIndividual IRI="#ItalianGlaze"/>
+        <Literal>0661343076</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanAge"/>
+        <NamedIndividual IRI="#Khalid"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">47</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanFirstName"/>
+        <NamedIndividual IRI="#Khalid"/>
+        <Literal>El waladi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanFirstName"/>
+        <NamedIndividual IRI="#Khalid"/>
+        <Literal>Khalid</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SupplierAddress"/>
+        <NamedIndividual IRI="#MIMEAL"/>
+        <Literal>N°137 rue Elouarda Quartier Biada Safi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SupplierFax"/>
+        <NamedIndividual IRI="#MIMEAL"/>
+        <Literal>0524 469851</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SupplierName"/>
+        <NamedIndividual IRI="#MIMEAL"/>
+        <Literal>MIMEAL</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SupplierPhone"/>
+        <NamedIndividual IRI="#MIMEAL"/>
+        <Literal>0669388999</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanAge"/>
+        <NamedIndividual IRI="#Mohammed"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">55</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanFirstName"/>
+        <NamedIndividual IRI="#Mohammed"/>
+        <Literal>Mohammed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanName"/>
+        <NamedIndividual IRI="#Mohammed"/>
+        <Literal>El Khraz</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanAge"/>
+        <NamedIndividual IRI="#Mostapha"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">57</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanFirstName"/>
+        <NamedIndividual IRI="#Mostapha"/>
+        <Literal>Mostapha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanName"/>
+        <NamedIndividual IRI="#Mostapha"/>
+        <Literal>El Msouhli</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanAge"/>
+        <NamedIndividual IRI="#Osama"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanFirstName"/>
+        <NamedIndividual IRI="#Osama"/>
+        <Literal>Osama</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanName"/>
+        <NamedIndividual IRI="#Osama"/>
+        <Literal>Jari</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanAge"/>
+        <NamedIndividual IRI="#Outhman"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanFirstName"/>
+        <NamedIndividual IRI="#Outhman"/>
+        <Literal>Outhman</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanFirstName"/>
+        <NamedIndividual IRI="#Outhman"/>
+        <Literal>Said</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanName"/>
+        <NamedIndividual IRI="#Outhman"/>
+        <Literal>Elbacheri</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativeAddress"/>
+        <NamedIndividual IRI="#PottersVillage"/>
+        <Literal>43 village de poterie Rue Hassan 2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativeMainPurpose"/>
+        <NamedIndividual IRI="#PottersVillage"/>
+        <Literal>Porcelaine et céramique</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativeMemberCount"/>
+        <NamedIndividual IRI="#PottersVillage"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativeName"/>
+        <NamedIndividual IRI="#PottersVillage"/>
+        <Literal>Artisans de village des potiers</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativePresidentPhone"/>
+        <NamedIndividual IRI="#PottersVillage"/>
+        <Literal>06 68 57 53 52</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PresidentName"/>
+        <NamedIndividual IRI="#PottersVillage"/>
+        <Literal>RIFKI Said</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanAge"/>
+        <NamedIndividual IRI="#Rabie"/>
+        <Literal>0613114122</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanAge"/>
+        <NamedIndividual IRI="#Rabie"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">47</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanFirstName"/>
+        <NamedIndividual IRI="#Rabie"/>
+        <Literal>Rabie</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanName"/>
+        <NamedIndividual IRI="#Rabie"/>
+        <Literal>Ibno Qaiss</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanAge"/>
+        <NamedIndividual IRI="#Rachid"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">56</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanFirstName"/>
+        <NamedIndividual IRI="#Rachid"/>
+        <Literal>Rachid</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanName"/>
+        <NamedIndividual IRI="#Rachid"/>
+        <Literal>Jari</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/CollectionPlace"/>
+        <NamedIndividual IRI="#RedClay"/>
+        <Literal>Safi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/MaterialName"/>
+        <NamedIndividual IRI="#RedClay"/>
+        <Literal>Argile Rouge</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SupplierAddress"/>
+        <NamedIndividual IRI="#SafaCeramics"/>
+        <Literal>1 Residence Zahra Avennue Moulay youssef SAFI</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SupplierFax"/>
+        <NamedIndividual IRI="#SafaCeramics"/>
+        <Literal>0524623351</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SupplierName"/>
+        <NamedIndividual IRI="#SafaCeramics"/>
+        <Literal>Safa Ceramique</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SupplierPhone"/>
+        <NamedIndividual IRI="#SafaCeramics"/>
+        <Literal>0600996060</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativeAddress"/>
+        <NamedIndividual IRI="#SafiCeramics"/>
+        <Literal>Délégation Provinciale de l&apos;Artisanat à Safi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativeMemberCount"/>
+        <NamedIndividual IRI="#SafiCeramics"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativeName"/>
+        <NamedIndividual IRI="#SafiCeramics"/>
+        <Literal>Céramique de Safi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativeName"/>
+        <NamedIndividual IRI="#SafiCeramics"/>
+        <Literal>Poterie et Céramique</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativePresidentPhone"/>
+        <NamedIndividual IRI="#SafiCeramics"/>
+        <Literal>06 41 76 67 48</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PresidentName"/>
+        <NamedIndividual IRI="#SafiCeramics"/>
+        <Literal>ELKHOUMERI Fatiha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanAge"/>
+        <NamedIndividual IRI="#Said"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanFirstName"/>
+        <NamedIndividual IRI="#Said"/>
+        <Literal>Said</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanName"/>
+        <NamedIndividual IRI="#Said"/>
+        <Literal>El Bekraoui</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativeAddress"/>
+        <NamedIndividual IRI="#SohbaPottery"/>
+        <Literal>13 Lotis Eddakhla Rue 40 Quartier Aazib darai</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativeMainPurpose"/>
+        <NamedIndividual IRI="#SohbaPottery"/>
+        <Literal>Poterie</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativeMemberCount"/>
+        <NamedIndividual IRI="#SohbaPottery"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativeName"/>
+        <NamedIndividual IRI="#SohbaPottery"/>
+        <Literal>Poterie Sohba</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativePresidentPhone"/>
+        <NamedIndividual IRI="#SohbaPottery"/>
+        <Literal>06 02 41 73 44</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PresidentName"/>
+        <NamedIndividual IRI="#SohbaPottery"/>
+        <Literal>BASELLAM Nezha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativeAddress"/>
+        <NamedIndividual IRI="#TraditionalArtisansDescendants"/>
+        <Literal>31 Rue Ishaq Elmoussili Quartier Moulay hassan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativeMemberCount"/>
+        <NamedIndividual IRI="#TraditionalArtisansDescendants"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativeName"/>
+        <NamedIndividual IRI="#TraditionalArtisansDescendants"/>
+        <Literal>Fils d&apos;artisans traditionnels</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CooperativePresidentPhone"/>
+        <NamedIndividual IRI="#TraditionalArtisansDescendants"/>
+        <Literal>06 43 60 18 23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PresidentName"/>
+        <NamedIndividual IRI="#TraditionalArtisansDescendants"/>
+        <Literal>ESSALHI Kamal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PresidentName"/>
+        <NamedIndividual IRI="#TraditionalArtisansDescendants"/>
+        <Literal>Poterie</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/CollectionPlace"/>
+        <NamedIndividual IRI="#WhiteClay"/>
+        <Literal>Italie</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/MaterialName"/>
+        <NamedIndividual IRI="#WhiteClay"/>
+        <Literal>WhiteClay</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#WorkshopName"/>
+        <NamedIndividual IRI="#Workshop45"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">Workshop47</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/WorkshopNumber"/>
+        <NamedIndividual IRI="#Workshop45"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">47</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/CreationDate"/>
+        <NamedIndividual IRI="#Workshop47"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2016</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SupplierAddress"/>
+        <NamedIndividual IRI="#ZiouaniFrères"/>
+        <Literal>N°42 rue Bacha colline des potiers Safi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SupplierFax"/>
+        <NamedIndividual IRI="#ZiouaniFrères"/>
+        <Literal>0524 464312</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SupplierName"/>
+        <NamedIndividual IRI="#ZiouaniFrères"/>
+        <Literal>Ziouani frères</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SupplierPhone"/>
+        <NamedIndividual IRI="#ZiouaniFrères"/>
+        <Literal>0524 464312</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanAge"/>
+        <NamedIndividual IRI="/Ahmed_Potier"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">70</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanFirstName"/>
+        <NamedIndividual IRI="/Ahmed_Potier"/>
+        <Literal>ahmed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ArtisanName"/>
+        <NamedIndividual IRI="/Ahmed_Potier"/>
+        <Literal>SERGHINI</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/WorkshopAddress"/>
+        <NamedIndividual IRI="/SerghiniWorkshop"/>
+        <Literal>ruer elkhawarizmi safi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/WorkshopNumber"/>
+        <NamedIndividual IRI="/SerghiniWorkshop"/>
+        <Literal>Atelier maserghini</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Process_goes"/>
+        <Class IRI="/Raw_Material"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#belongsTo"/>
+        <Class IRI="/Workshop"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPattern"/>
+        <Class IRI="/Product"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSuppliedBy"/>
+        <Class IRI="/Raw_Material"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#produces"/>
+        <Class IRI="/Workshop"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#uses"/>
+        <Class IRI="/artisan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/builtBy"/>
+        <Class IRI="/Product"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/displayedIn"/>
+        <Class IRI="/Product"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/manufactures"/>
+        <Class IRI="/artisan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/uses_Technique"/>
+        <Class IRI="/ProductionStep"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/worksIn"/>
+        <Class IRI="/artisan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Process_goes"/>
+        <Class IRI="/ProductionStep"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belongsTo"/>
+        <Class IRI="#Cooperative"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPattern"/>
+        <Class IRI="#Pattern"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSuppliedBy"/>
+        <Class IRI="#Supplier"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#produces"/>
+        <Class IRI="/Product"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#uses"/>
+        <Class IRI="#Technique"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/builtBy"/>
+        <Class IRI="/Raw_Material"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/displayedIn"/>
+        <Class IRI="/Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/manufactures"/>
+        <Class IRI="/Product"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/uses_Technique"/>
+        <Class IRI="#Technique"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/worksIn"/>
+        <Class IRI="/Workshop"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#ArtisanPhone"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#SupplierAddress"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ArtisanPhone"/>
+        <Class IRI="/artisan"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CooperativeAddress"/>
+        <Class IRI="#Cooperative"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CooperativeMainPurpose"/>
+        <Class IRI="#Cooperative"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CooperativeMemberCount"/>
+        <Class IRI="#Cooperative"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CooperativeName"/>
+        <Class IRI="#Cooperative"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CooperativePresidentPhone"/>
+        <Class IRI="#Cooperative"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#PresidentName"/>
+        <Class IRI="#Cooperative"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#SupplierAddress"/>
+        <Class IRI="#Supplier"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#SupplierFax"/>
+        <Class IRI="#Supplier"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#SupplierName"/>
+        <Class IRI="#Supplier"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#SupplierPhone"/>
+        <Class IRI="#Supplier"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#WorkshopName"/>
+        <Class IRI="/Workshop"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/ArtisanAge"/>
+        <Class IRI="/artisan"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/ArtisanFirstName"/>
+        <Class IRI="/artisan"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/ArtisanName"/>
+        <Class IRI="/artisan"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/ArtisanSpecialty"/>
+        <Class IRI="/artisan"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/CollectionPlace"/>
+        <Class IRI="/Raw_Material"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/CreationDate"/>
+        <Class IRI="/Workshop"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/LocationAddress"/>
+        <Class IRI="/Location"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/MaterialName"/>
+        <Class IRI="/Raw_Material"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/PlaceName"/>
+        <Class IRI="/Location"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/ProductCategory"/>
+        <Class IRI="/Product"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/ProductDescription"/>
+        <Class IRI="/Product"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/ProductDiameter"/>
+        <Class IRI="/Product"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/ProductName"/>
+        <Class IRI="/Product"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/ProductPrice"/>
+        <Class IRI="/Product"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/TechnicalDescription"/>
+        <Class IRI="/ProductionStep"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/TechniqueName"/>
+        <Class IRI="/ProductionStep"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/ToolName"/>
+        <Class IRI="/tool"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/WorkshopAddress"/>
+        <Class IRI="/Workshop"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/WorkshopNumber"/>
+        <Class IRI="/Workshop"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/typeLieu"/>
+        <Class IRI="/Location"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#ArtisanPhone"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#CooperativeAddress"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#CooperativeMainPurpose"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#CooperativeMemberCount"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#CooperativeName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#CooperativePresidentPhone"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#PresidentName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#SupplierAddress"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#SupplierFax"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#SupplierName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#SupplierPhone"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#WorkshopName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/ArtisanAge"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/ArtisanFirstName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/ArtisanName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/ArtisanSpecialty"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/CollectionPlace"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/CreationDate"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/LocationAddress"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/MaterialName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/PlaceName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/ProductCategory"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/ProductDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/ProductDiameter"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/ProductName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/ProductPrice"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/TechnicalDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/TechniqueName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/ToolName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/WorkshopAddress"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/WorkshopNumber"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/typeLieu"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/ArtisanFirstName</IRI>
+        <Literal>Ahmed</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
