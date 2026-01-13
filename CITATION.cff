@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Please cite this work when using the Safi Pottery Ontology."
+title: "Ontology-Based Representation of the Traditional Practices of Moroccan Safi Pottery"
+authors:
+  - family-names: Aguerchi
+    given-names: Saida
+  - family-names: Benaguerri
+    given-names: Safaa
+  - family-names: Elmaazouzi
+    given-names: Souad
+  - family-names: Chekry
+    given-names: Abderrahman
+date-released: 2026-01-01
+version: "1.0"
+type: dataset
+repository-code: "https://github.com/achekry/SafiPotteryOntology"
+doi: "10.5281/zenodo.18225857"
+conference:
+  name: "IEEE ADACIS 2025: The 2025 IEEE International Conference on Advances in Data-Driven Analytics and Intelligent Systems"
+  location: "Sousse, Tunisia"
+  year: 2025
+abstract: >
+  Ontology-Based Representation of the Traditional Practices of Moroccan Safi Pottery.
+  A semantic knowledge model describing the actors, tools, processes, and cultural context
+  of traditional pottery in Safi, Morocco.
+
